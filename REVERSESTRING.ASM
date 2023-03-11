@@ -1,3 +1,4 @@
+;print the reversal of the inputed string 
 .model small
 .stack 100h
 .org 100h
