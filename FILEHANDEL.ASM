@@ -2,7 +2,7 @@
 .stack 100h
 .data
 FNAME DB "CNF.TXT",0
-OPR1 DB "Hi Akshat Singh this side"
+FCONTENT DB "Hi Akshat Singh this side"
 HANDLE DW ?
 .code
 MOV AX,@data
@@ -16,15 +16,15 @@ MOV HANDLE,AX
 
 MOV AH,40H
 MOV BX,HANDLE
-MOV CX,25
-LEA DX,OPR1
+MOV CX,25 ;length of the content 
+LEA DX,FCONTENT
 INT 21H
 
 MOV AH,3EH
 MOV BX,HANDLE
 INT 21H
 
-MOV AH,76
+MOV AH,4Ch
 INT 21H
 
 END
