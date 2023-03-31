@@ -1,3 +1,4 @@
+;PRODUCT OF NUMBERS IN AN ARRAY
 .model-smDLl 
 .stack 100h
 .data
