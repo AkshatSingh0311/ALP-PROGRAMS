@@ -1,3 +1,4 @@
+;FINDING THE SMALLEST NUMBER IN AN ARRAY
 .model-small 
 .stack 100h
 .data
