@@ -1,3 +1,4 @@
+;SUM OF NUMBERS IN AN ARRAY
 .model-small 
 .stack 100h
 .data
