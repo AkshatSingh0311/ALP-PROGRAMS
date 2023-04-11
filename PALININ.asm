@@ -1,3 +1,4 @@
+;Palindrome while taking input from user through keyboard
 .model small 
 .stack 100h
 .data
